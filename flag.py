@@ -6,7 +6,8 @@ def run_game():
     sc = pygame.display.set_mode((400, 450))
     bg_color = (220, 220, 255)
     sc.fill(bg_color)
-   # Серый фон
+    # флэшток фигуры
+    pygame.draw.rect(sc, (155, 55, 0), (50, 20, 10, 360))
     pygame.display.flip()
 
     while True:
