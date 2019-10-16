@@ -15,6 +15,9 @@ def run_game():
     # Синяя часть фигуры
     pygame.draw.rect(sc, (0, 0, 255), (52, 100, 300, 80))
 
+    # желтая часть фигуры
+    pygame.draw.rect(sc, (255,255, 0), (52, 180, 300, 80))
+
     pygame.display.flip()
 
     while True:
