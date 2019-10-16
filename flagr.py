@@ -19,7 +19,6 @@ def run_game():
     pygame.draw.rect(sc, (255, 55, 0), (52, 180, 300, 80))
 
     pygame.display.flip()
-
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
